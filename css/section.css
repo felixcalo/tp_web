@@ -1,69 +1,33 @@
-/* display this row with flex and use wrap (= respect columns' widths) */
-
-.row-flex {
-    display: flex;
-    flex-wrap: wrap;
+.mastert {
+    background-image: url("../img/bg_r_1.png");
+    background-repeat: repeat-x;
 }
 
-/* vertical spacing between columns */
-
-[class*="col-"] {
-    margin-bottom: 30px;
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* For IE8 and earlier */
 }
 
-.content {
+/* Add some content at the bottom of the video/page */
+
+.banner {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
     height: 100%;
-    padding: 20px 20px 10px;
-    color: #fff;
+    z-index: 0;
 }
 
-/* Demo backgrounds and styling*/
+/* Style the button used to pause/play the video */
 
-.colour-1 {
-    background: #483C46;
-    color: #fff;
-}
-
-.colour-2 {
-    background: #3C6E71;
-}
-
-.colour-3 {
-    background: #70AE6E;
-}
-
-.colour-4 {
-    background: #82204A;
-}
-
-.colour-5 {
-    background: #558C8C;
-}
-
-.colour-6 {
-    background: #917C78;
-}
-
-body {
-    padding: 20px 0;
-    font-family: Roboto, sans-serif;
-}
-
-.content h3 {
-    margin-top: 0px;
-    font-weight: 300;
-}
-
-h1 {
-    font-weight: 300;
-    margin-bottom: 40px;
-}
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    ...
+    .row col {}
 }
 
 // Medium devices (tablets, 768px and up)
