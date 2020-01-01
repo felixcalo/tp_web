@@ -93,7 +93,12 @@
     .containe {}
 }
 
-@media (min-width: 376px) {}
+@media (max-width: 376px) {
+    .card_img_2 {
+        max-height: 100px;
+        max-width: 100px;
+    }
+}
 
 @media (min-width: 768px) {
     .containe {}
