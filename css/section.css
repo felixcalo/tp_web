@@ -1,5 +1,10 @@
-.mastert {
+.baner_transparent {
     background-image: url("../img/bg_r_1.png");
+    background-repeat: repeat-x;
+}
+
+.baner_menu_obj {
+    background-image: url("../img/bg_menu_obj.png");
     background-repeat: repeat-x;
 }
 
@@ -20,30 +25,82 @@
     color: #f1f1f1;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: -2;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .large {
+    padding: 0px;
+    margin: 0px;
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    background-color: black;
+}
+
+.supp_espace {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-jumb-prof {
+    background-color: AliceBlue;
+}
+
+.found {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 20;
+}
+
+.card_img {
+    max-height: 170px;
+    max-width: 170px;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card_img_2 {
+    max-height: 400px;
+    max-width: 500px;
+}
+
+.bg-yellow {
+    background-color: #FED841;
 }
 
 /* Style the button used to pause/play the video */
 
-@media (min-width: 576px) {
-    .row col {}
+@media screen and (max-width: 600px) {
+    .taille {
+        font-size: 20px;
+    }
+    .banner {
+        z-index: -1000;
+    }
+    .row col {
+        margin-bottom: 5px;
+    }
+    .bg-jone {
+        background-color: yellow;
+    }
+    .containe {}
 }
 
-// Medium devices (tablets, 768px and up)
+@media (min-width: 376px) {}
+
 @media (min-width: 768px) {
-    ...
+    .containe {}
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...
-}
+@media (min-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {

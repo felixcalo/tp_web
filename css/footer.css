@@ -11,6 +11,15 @@ h4 {
     width: 100%;
 }
 
+.footer-copyright {
+    position: relative;
+    background-color: #b0b6b9;
+    color: #062b4a;
+    z-index: 0;
+    clear: both;
+    width: 100%;
+}
+
 .footer a {
     color: #fff;
 }
