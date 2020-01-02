@@ -5,7 +5,7 @@
 
 .baner_menu_obj {
     background-image: url("../img/bg_menu_obj.png");
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
 
 #myVideo {
